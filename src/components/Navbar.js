@@ -91,7 +91,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-// Todo: Change fork btn to email btn, and open their email app
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/carson-evans/Portfolio"
