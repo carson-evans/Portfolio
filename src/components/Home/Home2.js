@@ -49,7 +49,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>SOCIALS</h1>
             <p>
-              Let's <span className="purple">connect!</span>
+              Let's <span className="purple"><a className= "purple" target= "_blank" href="https://www.linkedin.com/in/carson-evans42/">connect!</a></span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
