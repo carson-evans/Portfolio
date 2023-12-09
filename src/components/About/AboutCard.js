@@ -11,9 +11,9 @@ function AboutCard() {
             Hi everyone, I am <span className="purple">Carson Evans </span>
             from <span className="purple"> Carrollton, Texas.</span>
             <br />
-            I am currently seeking internship in the Boston area.
+            I am currently <span className="purple">seeking internship in the Boston area.</span>
             <br />
-            I am a sophomore at Fisher College studying Software Engineering.
+            I am a <span className="purple">sophomore at Fisher College</span> studying <span className="purple">Software Engineering.</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
