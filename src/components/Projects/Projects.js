@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import calculator from "../../Assets/Projects/calculator.png";
 import drumKit from "../../Assets/Projects/drumKit.png";
-import markdown from "../../Assets/Projects/markdown.png";
+import chatBot from "../../Assets/Projects/chatBot.png";
 import quote from "../../Assets/Projects/quote.png";
 function Projects() {
   return (
@@ -20,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={quote}
+              imgPath={chatBot}
               isBlog={false}
               title="AI Chat bot"
               description="Building an artificial intelligence using HuggingFace transformers library and Gradio with Microsoft DialoGPT large model."
@@ -34,8 +34,8 @@ function Projects() {
               imgPath={calculator}
               isBlog={false}
               title="Calculator"
-              description="Calculator built with React.js. It takes the input from the user and performs the calculation."
-              ghLink="https://github.com/carson-evans/"
+              description="JavaScript calculator web application built using React.js. It features a user interface for inputting calculations and displays results in real-time, styled with CSS and using React for dynamic interactivity."
+              ghLink="https://gist.github.com/carson-evans/d83d5ebaa81f2c1ae37ec39587578c0c"
               demoLink="https://codepen.io/carson-evans/pen/xxMyBOG"
             />
           </Col>
@@ -45,20 +45,20 @@ function Projects() {
               imgPath={drumKit}
               isBlog={false}
               title="Drum Kit"
-              description="A simple drum kit built with React.js. It takes the input from the user and plays the corresponding sound"
-              ghLink="https://github.com/carson-evans/"
+              description="Drum Machine web application built with React.js. It features a user interface that allows users to play different drum sounds and rhythms, with interactive pads and controls for power, volume, and sound selection, styled using CSS."
+              ghLink="https://gist.github.com/carson-evans/5afd4c512271e48d278893a2319ddd01"
               demoLink="https://codepen.io/carson-evans/pen/JjxmzyK"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={markdown}
+              imgPath={quote}
               isBlog={false}
-              title="React Markdown Previewer"
-              description="A simple markdown previewer built with React.js. It takes the markdown text as input and renders it as html."
-              ghLink="https://github.com/carson-evans"
-              demoLink="https://codepen.io/carson-evans/pen/jOdeJLd"              
+              title="Random Quote Generator"
+              description="The application is a web-based random quote generator designed with HTML, CSS, and JavaScript, leveraging jQuery and AJAX to fetch quotes from an external API. It dynamically displays these quotes and allows users to share them on social media platforms like Twitter and Tumblr."
+              ghLink="https://gist.github.com/carson-evans/eed93b9c08f3f6870e8c7a0d6ac0c8ea"
+              demoLink="https://codepen.io/carson-evans/pen/dyagrVv"              
             />
           </Col>
         </Row>
