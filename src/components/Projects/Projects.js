@@ -22,10 +22,10 @@ function Projects() {
             <ProjectCard
               imgPath={quote}
               isBlog={false}
-              title="Quote Generator"
-              description="A simple quote generator built with React.js. It fetches the quotes from an API and displays it on the screen."
-              ghLink="https://github.com/carson-evans"
-              demoLink="https://codepen.io/carson-evans/pen/dyagrVv"
+              title="AI Chat bot"
+              description="Building an artificial intelligence using HuggingFace transformers library and Gradio with Microsoft DialoGPT large model."
+              ghLink="https://github.com/carson-evans/AI-ChatBot"
+              demoLink="https://huggingface.co/spaces/carsonevans/AI-ChatBot"
             />
           </Col>
 
