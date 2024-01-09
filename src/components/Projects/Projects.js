@@ -6,6 +6,7 @@ import calculator from "../../Assets/Projects/calculator.png";
 import drumKit from "../../Assets/Projects/drumKit.png";
 import chatBot from "../../Assets/Projects/chatBot.png";
 import quote from "../../Assets/Projects/quote.png";
+import azure from "../../Assets/Projects/azure.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -18,6 +19,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={azure}
+              isBlog={false}
+              title="GPT-4.0 Azure Chat Bot API"
+              description="Developed using Node.js and Express framework, integrating OpenAI's GPT-4.0 for AI-driven conversational capabilities"
+              ghLink="https://github.com/carson-evans/GPT-API"
+              
+            />
+          </Col>
+
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatBot}
