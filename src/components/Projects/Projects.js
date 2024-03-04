@@ -7,6 +7,7 @@ import drumKit from "../../Assets/Projects/drumKit.png";
 import chatBot from "../../Assets/Projects/chatBot.png";
 import quote from "../../Assets/Projects/quote.png";
 import azure from "../../Assets/Projects/azure.png";
+import emotion from "../../Assets/Projects/emotion.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -19,6 +20,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="IBM Watson Emotion Analysis API"
+              description="Simple python web application that uses the IBM Watson API to detect emotions in a given text. This application only works on IBM Cloud due to security checks."
+              ghLink="https://github.com/carson-evans/AI-Emotion-Detection-IBM-Watson"
+              
+            />
+          </Col>
+
 
         <Col md={4} className="project-card">
             <ProjectCard
