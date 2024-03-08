@@ -17,23 +17,23 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am currently a <b className="purple">sophomore</b> student at <b className="purple">Fisher College</b> pursuing a <b className="purple">Bachelor's degree in Software Engineering</b>. I am passionate about learning new technologies and building software that solves real-world problems.
+              I am currently a <b className="purple">sophomore</b> at <b className="purple">Fisher College,</b> pursuing a <b className="purple">Bachelor's degree in Software Engineering</b>. I am passionate about learning new technologies, and developing software that addresses real-world problems.
               <br />
               <br />I like to code in
               <i>
-                <b className="purple"> Java, JavaScript, C++, C#, and Python. </b>
+                <b className="purple"> Python, JavaScript, Java, C#, C++, and HTML. </b>
               </i>
               <br />
               <br />
-              I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Additionally, I apply my passion for product development
+              using <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; such as
               <i>
                 <b className="purple"> React.js and Next.js</b>
               </i>
