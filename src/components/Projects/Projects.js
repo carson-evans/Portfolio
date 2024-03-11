@@ -8,6 +8,7 @@ import chatBot from "../../Assets/Projects/chatBot.png";
 import quote from "../../Assets/Projects/quote.png";
 import azure from "../../Assets/Projects/azure.png";
 import emotion from "../../Assets/Projects/emotion.png";
+import AI from "../../Assets/Projects/AI.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -20,6 +21,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={AI}
+              isBlog={false}
+              title="Large Language Model"
+              description="My first Large Language Model from scratch. This model is trained on a large dataset of text and is capable of generating human-like text."
+              ghLink="https://github.com/carson-evans/LLM-From-Scratch"
+              
+            />
+          </Col>
+
 
         <Col md={4} className="project-card">
             <ProjectCard
