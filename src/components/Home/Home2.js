@@ -17,11 +17,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am currently a <b className="purple">sophomore</b> at <b className="purple">Fisher College,</b> pursuing a <b className="purple">Bachelor's degree in Software Engineering</b>. I am passionate about learning new technologies, and developing software that addresses real-world problems.
+              I am currently a <b className="purple">Junior</b> at <b className="purple">UMass Boston,</b> pursuing a <b className="purple">Bachelor's degree in Software Engineering</b>. I am passionate about learning new technologies, and developing software that addresses real-world problems.
               <br />
               <br />I like to code in
               <i>
-                <b className="purple"> Python, JavaScript, Java, C#, C++, and HTML. </b>
+                <b className="purple"> Python, JavaScript, C#, C++, and Java. </b>
               </i>
               <br />
               <br />
