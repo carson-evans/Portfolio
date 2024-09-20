@@ -17,7 +17,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am currently a <b className="purple">Junior</b> at <b className="purple">UMass Boston,</b> pursuing a <b className="purple">Bachelor's degree in Software Engineering</b>. I am passionate about learning new technologies, and developing software that addresses real-world problems.
+              I am currently a <b className="purple">Junior</b> at <b className="purple">The University of Massachusetts Boston,</b> pursuing a <b className="purple">Bachelor's degree in Software Engineering</b>. I am passionate about learning new technologies, and developing software that addresses real-world problems.
               <br />
               <br />I like to code in
               <i>
